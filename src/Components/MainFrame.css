@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Heebo:wght@200&display=swap');
+
+/**************Navbar **************/
+.nav-bar{
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(39, 1, 1);
+    font-size: 2rem;
+}
+.navbar{
+    padding-bottom: 0px;
+    border: solid rgba(248, 248, 248, 0.966);
+    background-image: url('../hero-bg.png');
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+.nav-icon{
+    position: absolute;
+    right: 4%;
+}
+.nav-icon p{
+    position: absolute;
+    font-size: 1.4rem;
+    margin-left: 5rem;
+    margin-top: -0.2rem;
+}
+/************************** Home ******************************/
+.home-div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+}
+.img-fluid{
+    height: 42rem;
+}
+.home-img{
+    padding-top: 2rem;
+    position: relative;
+}
+.home-info{
+    color: rgb(39, 1, 1);
+    /* background-color: orange; */
+    padding-top: 12%;
+    text-align: right;
+    position: absolute;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 50%;
+}
+.home-title{
+    /* color: rgb(39, 1, 1); */
+    text-align: left;
+    font-size: 6.4rem;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-shadow: 2px 6px 5px rgb(251, 93, 93);
+}
+.home-desc{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 2rem;
+    border: solid rgb(39, 1, 1);
+    color: rgb(39, 1, 1);
+    text-align: center;
+    padding: 0rem 2rem 0rem 2rem;
+
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(39, 1, 1);
+}
+
+/**************Body div*******************/
+.body-div-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.product-Div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1%;
+    place-items: center;
+    gap: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+.card-img-top{
+    height: 10rem;
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body img{
+    /* margin-left: 1rem; */
+    height: 2rem;
+    width: 2rem;
+}
+.card-img{
+    margin-left: 0rem; 
+    padding-left: 6rem;
+
+}
+.body-info p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card-body, .body-info{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+.body-info{
+    justify-content:flex-end;
+    margin-right: 5rem;
+    /* margin-top: 50%; */
+}
+.card{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.3rem;
+    width: 18rem;
+    height: 16rem;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.body-info p{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.next:hover{
+    background-color: #ddd;
+    color: black;
+}
+.previous:hover{
+    background-color: #ddd;
+    color: black;
+}
+.body-info .previous, .next {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.body-info .round {
+border-radius: 50%;
+}
+
+.overlayer{
+    position: absolute;
+    background-color: rgba(90, 228, 90, 0.712);
+    width: 18rem;
+    margin-top: -12rem;
+    margin-left: -1.1rem;
+    opacity: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+.overlayer:hover{
+    opacity: 1;
+}
